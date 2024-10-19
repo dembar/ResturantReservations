@@ -1,0 +1,41 @@
+# Ignore all installer files
+*.msi
+*.exe
+*.dmg
+*.zip
+*.tar.gz
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Eclipse files
+.classpath
+.project
+.settings/
+
+# Ignore compiled Java files
+*.class
+*.jar
+*.war
+
+# Ignore logs and temporary files
+*.log
+tmp/
+*.tmp
+
+# Ignore database dumps
+*.sql
+
+# Ignore build files
+/build/
+target/
+out/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore Maven dependencies if not using Maven
+/target/
+
